@@ -10,3 +10,6 @@ RUN cp -rvf ice-cream-shop-website-template/* .
 RUN rm -rf ice-cream-shop-website-template icream.zip
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
 EXPOSE 80
+
+Hello
+Hi
